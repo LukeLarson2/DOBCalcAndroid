@@ -63,6 +63,7 @@
         app:cornerRadius="0dp" />
 
     <TextView
+        android:id="@+id/formatted_date_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -70,7 +71,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/colorPrimary"
         android:textSize="20sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -79,7 +80,9 @@
         android:textColor="@color/colorGrey"
         android:textSize="18sp"
         android:textStyle="bold"/>
+
     <TextView
+        android:id="@+id/minutes_age_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -87,7 +90,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/colorPrimary"
         android:textSize="30sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
